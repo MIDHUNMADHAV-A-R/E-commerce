@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+}
+main{
+    background: radial-gradient(#fff, #ffd6d6);
+    height: 100vh;
+}
+#logo {
+    position: relative;
+    top: 20px;
+    left: 120px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+}
+ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.landing {
+    display: flex;
+}
+.Left {
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 4%;
+}
+#img1{
+    padding-left: 20%;
+}
+.Right {
+    width: 50%;
+}
+.loginboox{
+    background-color: white;
+    width: 280px;
+    height: 350px;
+    margin-top: 23%;
+    margin-left: 25%;
+    border: none;
+    box-shadow: 4px 4px 6px 6px rgba(235, 231, 231, 0.904);
+}
+.loginboox .head{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6%;
+    color: rgb(65, 64, 64);
+}
+#h1{
+    margin-left: 40px;
+}
+#register{
+    margin-right: 40px;
+}
+.underline{
+    width: 100px;
+    height: 3px;
+    background-color: orangered;
+    border-radius: 20px;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+.inputbox{
+    margin-top: 25%;
+}
+input{
+    margin-left: 5%;
+    width: 85%;
+    height: 20px;
+}
+#button{
+    width: 87%;
+    margin-left:6%;
+    padding: 7px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+.loginboox a{
+    text-decoration: none;
+    color: rgb(65, 64, 64);
+}
+.inputbox a p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: smaller;
+}
+footer{
+    background: black;
+    margin-top: 6%;
+}
+.footerdiv{
+    display: flex;
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: 30vh;
+}
+.footerdiv a{
+    text-decoration: none;
+    color: gray;
+}
+.footerdiv a:hover{
+    color: white;
+}
+.footerdiv .footeritem1{
+    width: 480px;
+    height: 170px;
+    /* border:red solid; */
+}
+.footerdiv .footeritem2{
+    width: 460px;
+    height: 170px;
+    /* border:red solid; */
+}
+.footerdiv .footeritem3{
+    width: 330px;
+    height: 170px;
+    /* border:red solid; */
+}
+.footerdiv .footeritem4{
+    width: 370px;
+    height: 170px;
+    /* border:red solid; */
+}
+.footerdiv .footeritem1 .download{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-right: 4%;
+    margin-top: 10%;
+}
+.smalltext{
+    color: gray;
+    font-size: 12px;
+    margin-left: 23%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#appstore{
+    position: relative;
+    left: 30px;
+}
+#playstore{
+    position: relative;
+    left: 25px
+}
+#logowhite{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+#purpose{
+color: grey; 
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 10%;
+}
+.lefttext{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-top: 12%;
+    margin-right: 20%;
+}
+.lefttextend{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-top: 12%;
+    margin-right: 70%;
+}
+#Coupons{
+    color: grey; 
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20%;
+    line-height: 18px;
+    }
+#Facebook{
+    color: grey; 
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 70%;
+    line-height: 18px;
+}
+.footerline{
+    width: 80%;
+    height: 2px;
+    margin-left: 7%;
+    background-color: white;
+}
+.copyright{
+    margin-left: 40%;
+    margin-top: 1%;
+    color: gray;
+    font-size: 12px;
+}

@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+}
+#logo {
+    position: relative;
+    top: 20px;
+    right: 140px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    position: relative;
+    left: 35%;
+    cursor: pointer;
+}
+ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.mainproduct{
+    width: 99.5%;
+    /* border: red solid; */
+    height: 76vh;
+    margin-top: 5%;
+    display: flex;
+}
+.left{
+    width: 50%;
+    /* border: green solid; */
+    height: 99%;
+}
+.right{
+    width: 49.5%;
+    /* border: rgb(2, 23, 211) solid; */
+    height: 99%;
+    margin-left: 1%;
+}
+#images{
+    margin-left: 10%;
+    margin-bottom: 8%;
+}
+iframe{
+    border: none;
+    overflow: auto;
+}
+.text{
+    margin-top: 8%;
+    margin-left: 4%;
+}
+.para{
+    color: rgb(43, 42, 42);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+.h2{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+.para3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    line-height: 35px;
+}
+select{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+#count{
+    border: rgb(255, 120, 71) 1px solid;
+    width: 30px;
+    height: 20px;
+}
+#card{
+    padding: 4px;
+    border-radius: 20px;
+    width: 120px;
+    height: 28px;
+    margin-left: 2%;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+#card:hover{
+    background-color: rgb(253, 127, 42);
+}
+.heading{
+    margin-top: 10%;
+    /* border: red solid; */
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+.heading a{
+    text-decoration: none;
+    color: black;
+}
+.heading h2{
+    font-size: 25px;
+    margin-left: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buy {
+    display: flex;
+    justify-content: center;
+    /* transition: transform 0.3s ease;} */
+}
+.card {
+    margin: 45px;
+    background-color: rgb(249,249,247);
+    cursor: pointer;
+}
+.card .rating {
+    color:orangered;
+}
+footer{
+    background: black;
+    margin-top: 6%;
+}
+.footerdiv{
+    display: flex;
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: 30vh;
+}
+.footerdiv a{
+    text-decoration: none;
+    color: gray;
+}
+.footerdiv a:hover{
+    color: white;
+}
+.footerdiv .footeritem1{
+    width: 480px;
+    height: 170px;
+    /* border:red solid; */
+}
+.footerdiv .footeritem2{
+    width: 460px;
+    height: 170px;
+    /* border:red solid; */
+}
+.footerdiv .footeritem3{
+    width: 330px;
+    height: 170px;
+    /* border:red solid; */
+}
+.footerdiv .footeritem4{
+    width: 370px;
+    height: 170px;
+    /* border:red solid; */
+}
+.footerdiv .footeritem1 .download{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-right: 4%;
+    margin-top: 10%;
+}
+.smalltext{
+    color: gray;
+    font-size: 12px;
+    margin-left: 23%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#appstore{
+    position: relative;
+    left: 30px;
+}
+#playstore{
+    position: relative;
+    left: 25px
+}
+#logowhite{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+#purpose{
+color: grey; 
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 10%;
+}
+.lefttext{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-top: 12%;
+    margin-right: 20%;
+}
+.lefttextend{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-top: 12%;
+    margin-right: 70%;
+}
+#Coupons{
+    color: grey; 
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20%;
+    line-height: 18px;
+    }
+#Facebook{
+    color: grey; 
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 70%;
+    line-height: 18px;
+}
+.footerline{
+    width: 80%;
+    height: 2px;
+    margin-left: 7%;
+    background-color: white;
+}
+.copyright{
+    margin-left: 40%;
+    margin-top: 1%;
+    color: gray;
+    font-size: 12px;
+}
